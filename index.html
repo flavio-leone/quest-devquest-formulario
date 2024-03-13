@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio DevQuest - Formulario</title>
+
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="ajuda">
+        <h2 class="titulo">FICOU COM DÚVIDA? </h2>
+        <h2 class="titulo">NOS MANDE UMA MENSAGEM!</h2>
+        <p class="texto">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+    </div>
+
+        <form class="formulario" id="formulario">
+            <input id="nome" type="text" class="input nome" placeholder="Nome completo *">
+            <span id="aviso-nome" class="aviso">campo obrigatório</span>
+
+            <br>
+
+            <input id="email" type="email" class="input email" placeholder="email *">
+            <span  id="aviso-email" class="aviso">campo obrigatório</span>
+            <br>
+
+            <input id="telefone" type="tel"class="input telefone" placeholder="Telefone *">
+            <span id="aviso-telefone"  class="aviso">campo obrigatório</span>
+
+            <br>
+
+            <input id="mensagem" type="text"class="input mensagem" placeholder="Mensagem *">
+            <span id="aviso-mensagem"  class="aviso">campo obrigatório</span>
+
+            <p class="campos-obrigatorio">* Campos obrigatórios</p>
+
+           <button id="botao" class="botao-enviar" >Enviar</button>
+
+        </form>
+    </main>
+
+    
+
+    <script src="./src/js/formulario.js"></script>
+</body>
+</html>
